@@ -3,7 +3,7 @@ import React from 'react';
 
 const FloatingButtons = () => {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col space-y-4">
+    <div className="fixed top-1/2 right-6 transform -translate-y-1/2 z-50 flex flex-col space-y-4">
       {/* WhatsApp Button */}
       <a
         href="https://wa.me/919431340624"
