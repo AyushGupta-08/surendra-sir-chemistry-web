@@ -23,7 +23,7 @@ const ReviewForm = () => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: name === 'class' || name === 'rating' ? parseInt(value) : value
+      [name]: name === 'rating' ? parseInt(value) : value
     }));
   };
 
@@ -49,12 +49,12 @@ const ReviewForm = () => {
     try {
       const { error } = await supabase
         .from('reviews')
-        .insert([{
+        .insert({
           name: formData.name.trim(),
-          class: formData.class,
+          class: parseInt(formData.class),
           feedback: formData.feedback.trim(),
           rating: formData.rating
-        }]);
+        });
 
       if (error) throw error;
 
