@@ -81,7 +81,15 @@ const Courses = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">{course.title}</h3>
               <p className="text-teal-600 font-semibold mb-2">{course.subjects}</p>
-              <p className="text-gray-600 mb-4">{course.boards}</p>
+              <p className="text-gray-600 mb-3">{course.boards}</p>
+              
+              {/* Online/Offline availability */}
+              <div className="bg-gradient-to-r from-teal-50 to-blue-50 rounded-lg p-3 mb-3 border border-teal-100">
+                <p className="text-sm text-gray-700 font-medium text-center">
+                  📖 Available in both <span className="text-teal-600">online</span> and <span className="text-blue-600">offline</span> modes
+                </p>
+              </div>
+              
               <p className="text-teal-600 font-medium text-sm">
                 Contact us for more details and fee information.
               </p>
@@ -102,6 +110,7 @@ const Courses = () => {
             <div className="space-y-2 text-gray-600">
               <p>✓ Flexible class hours to accommodate student schedules</p>
               <p>✓ Weekday & weekend batches available</p>
+              <p>✓ Online and offline sessions with interactive learning</p>
             </div>
           </div>
         </div>

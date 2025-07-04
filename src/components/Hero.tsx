@@ -46,10 +46,17 @@ const Hero = () => {
             </h1>
             
             {/* New Introductory Paragraph */}
-            <p className="text-xl lg:text-2xl text-gray-200 mb-8 leading-relaxed animate-fade-in animation-delay-400 max-w-4xl">
+            <p className="text-xl lg:text-2xl text-gray-200 mb-6 leading-relaxed animate-fade-in animation-delay-400 max-w-4xl">
               Learn chemistry with fun and logic under Surendra Sir – known for his unique teaching style, 
               strong board focus, and result-driven approach.
             </p>
+            
+            {/* New Online/Offline Information */}
+            <div className="bg-gradient-to-r from-teal-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border border-teal-400/30 animate-fade-in animation-delay-500">
+              <p className="text-lg lg:text-xl text-white font-medium text-center">
+                📚 We offer both <span className="text-teal-400 font-semibold">Online</span> and <span className="text-blue-400 font-semibold">Offline</span> Chemistry classes for students of Classes 9 to 12 (ICSE & CBSE).
+              </p>
+            </div>
             
             {/* Enhanced Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in animation-delay-600">

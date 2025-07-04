@@ -62,6 +62,11 @@ const About = () => {
               </p>
               
               <p>
+                <strong className="text-blue-600">Surendra Sir provides flexible learning options, including both offline classroom sessions and interactive online classes.</strong> This 
+                ensures that students can learn in the format that best suits their needs and schedule.
+              </p>
+              
+              <p>
                 Students appreciate his friendly, approachable nature, and the way he breaks down even the toughest topics 
                 into fun, memorable lessons. Whether it's mastering equations, understanding organic chemistry, or cracking 
                 tricky numericals, Surendra Yadav ensures his students are not only well-prepared for exams, but also 
