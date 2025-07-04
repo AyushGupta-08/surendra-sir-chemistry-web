@@ -26,8 +26,8 @@ const Footer = () => {
               <p className="text-gray-400">Jugsalai, Jamshedpur</p>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">Fees</h4>
-              <p className="text-gray-400">₹1200/month</p>
+              <h4 className="font-semibold mb-2">Fee Information</h4>
+              <p className="text-gray-400">Contact us for details</p>
             </div>
           </div>
           

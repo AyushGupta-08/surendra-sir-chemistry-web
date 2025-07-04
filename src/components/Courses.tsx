@@ -82,10 +82,9 @@ const Courses = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-2">{course.title}</h3>
               <p className="text-teal-600 font-semibold mb-2">{course.subjects}</p>
               <p className="text-gray-600 mb-4">{course.boards}</p>
-              <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-teal-600">₹1200</span>
-                <span className="text-sm text-gray-500">/month</span>
-              </div>
+              <p className="text-teal-600 font-medium text-sm">
+                Contact us for more details and fee information.
+              </p>
               
               {/* Decorative chemistry elements */}
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-teal-300 to-blue-300 rounded-full opacity-20"></div>

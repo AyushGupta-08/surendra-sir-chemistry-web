@@ -64,7 +64,7 @@ const Hero = () => {
               </a>
               <button className="border-2 border-teal-400 text-teal-400 px-8 py-4 rounded-full font-semibold hover:bg-teal-400 hover:text-slate-900 transition-all duration-300 flex items-center justify-center text-lg">
                 <FlaskConical className="w-6 h-6 mr-3" />
-                Learn More - ₹1200/month
+                Learn More - Contact for Details
               </button>
             </div>
           </div>

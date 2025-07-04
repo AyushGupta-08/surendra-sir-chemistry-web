@@ -47,8 +47,8 @@ const Contact = () => {
                       💰
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-800">Fees</p>
-                      <p className="text-gray-600">₹1200 per month</p>
+                      <p className="font-semibold text-gray-800">Fee Information</p>
+                      <p className="text-gray-600">Contact us for more details and fee information.</p>
                     </div>
                   </div>
                 </div>
