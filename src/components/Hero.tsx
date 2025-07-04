@@ -51,10 +51,10 @@ const Hero = () => {
               strong board focus, and result-driven approach.
             </p>
             
-            {/* New Online/Offline Information */}
+            {/* Updated Online/Offline Information */}
             <div className="bg-gradient-to-r from-teal-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border border-teal-400/30 animate-fade-in animation-delay-500">
               <p className="text-lg lg:text-xl text-white font-medium text-center">
-                📚 We offer both <span className="text-teal-400 font-semibold">Online</span> and <span className="text-blue-400 font-semibold">Offline</span> Chemistry classes for students of Classes 9 to 12 (ICSE & CBSE).
+                We offer Online as well as Offline classes from Class 9 to 12.
               </p>
             </div>
             
