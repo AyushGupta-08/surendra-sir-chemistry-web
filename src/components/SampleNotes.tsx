@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, FileText } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -7,12 +7,12 @@ const SampleNotes = () => {
   const notes = [
     {
       title: 'D & F Block Elements – Sample Notes',
-      description: 'Preview and download the PDF below',
+      description: 'Click below to download the PDF',
       pdfUrl: '/downloads/d_f_block_elements.pdf',
     },
     {
       title: 'Organic Chemistry – Sample Notes',
-      description: 'Preview and download the PDF below',
+      description: 'Click below to download the PDF',
       pdfUrl: '/downloads/organic_notes.pdf',
     },
   ];
@@ -33,40 +33,24 @@ const SampleNotes = () => {
           {notes.map((note, index) => (
             <Card 
               key={index}
-              className="hover:shadow-xl transition-all duration-300 bg-card border-border overflow-hidden"
+              className="hover:shadow-lg transition-shadow duration-300 bg-card border-border"
             >
               <CardHeader>
-                <div className="flex items-start gap-3">
-                  <FileText className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <CardTitle className="text-xl font-bold text-foreground">
-                      {note.title}
-                    </CardTitle>
-                    <CardDescription className="text-muted-foreground mt-1">
-                      {note.description}
-                    </CardDescription>
-                  </div>
-                </div>
+                <CardTitle className="text-xl font-bold text-foreground">
+                  {note.title}
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  {note.description}
+                </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                {/* PDF Preview */}
-                <div className="w-full rounded-lg overflow-hidden border border-border shadow-sm">
-                  <iframe
-                    src={`${note.pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`}
-                    className="w-full h-48 md:h-56"
-                    title={`Preview of ${note.title}`}
-                    loading="lazy"
-                  />
-                </div>
-                
-                {/* Download Button */}
+              <CardContent>
                 <a 
                   href={note.pdfUrl}
                   download
                   className="block"
                 >
                   <Button 
-                    className="w-full bg-primary hover:bg-primary/90 hover:shadow-md text-primary-foreground font-semibold transition-all duration-200"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                     size="lg"
                   >
                     <Download className="mr-2 h-5 w-5" />
