@@ -10,6 +10,7 @@ import Contact from '../components/Contact';
 import FloatingButtons from '../components/FloatingButtons';
 import Footer from '../components/Footer';
 import DeveloperCredit from '../components/DeveloperCredit';
+import SampleNotes from '../components/SampleNotes';
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <Testimonials />
       <Reviews />
       <Contact />
+      <SampleNotes />
       <Footer />
       <DeveloperCredit />
       <FloatingButtons />
