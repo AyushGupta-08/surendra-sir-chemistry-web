@@ -9,6 +9,7 @@ import Reviews from '../components/Reviews';
 import Contact from '../components/Contact';
 import FloatingButtons from '../components/FloatingButtons';
 import Footer from '../components/Footer';
+import DeveloperCredit from '../components/DeveloperCredit';
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <Reviews />
       <Contact />
       <Footer />
+      <DeveloperCredit />
       <FloatingButtons />
     </div>
   );
