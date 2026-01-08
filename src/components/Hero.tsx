@@ -34,27 +34,26 @@ const Hero = () => {
               <Atom className="w-10 h-10 text-blue-400" />
             </div>
             
-            {/* New Enhanced Headline */}
+            {/* SEO-Optimized H1 */}
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight animate-fade-in animation-delay-200">
-              Jamshedpur's Most Trusted
+              Best Chemistry Teacher in Jamshedpur
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400 block mt-2">
-                Chemistry Tuition
+                Surendra Sir Chemistry Classes
               </span>
               <span className="text-2xl lg:text-3xl xl:text-4xl font-semibold text-gray-300 block mt-4">
-                ICSE & CBSE Classes 9 to 12
+                Expert Chemistry Coaching for Class 9–12 | ICSE, CBSE & ISC Boards
               </span>
             </h1>
             
-            {/* New Introductory Paragraph */}
+            {/* SEO-rich introductory paragraph */}
             <p className="text-xl lg:text-2xl text-gray-200 mb-6 leading-relaxed animate-fade-in animation-delay-400 max-w-4xl">
-              Learn chemistry with fun and logic under Surendra Sir – known for his unique teaching style, 
-              strong board focus, and result-driven approach.
+              Looking for the <strong>top chemistry teacher in jamshedpur</strong>? Join Surendra Sir's trusted chemistry coaching in Jugsalai – the <strong>best chemistry coaching center in jamshedpur</strong> for Class 9 to 12 students. We are the leading <strong>chemistry coaching institute in jamshedpur</strong> providing <strong>affordable chemistry coaching in jamshedpur</strong> with proven results.
             </p>
             
-            {/* Updated Online/Offline Information */}
+            {/* Updated Online/Offline Information with keywords */}
             <div className="bg-gradient-to-r from-teal-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border border-teal-400/30 animate-fade-in animation-delay-500">
               <p className="text-lg lg:text-xl text-white font-medium text-center">
-                We offer Online as well as Offline classes from Class 9 to 12.
+                We offer <strong>chemistry tuition classes in jamshedpur</strong> – both Online and Offline modes available. Whether you need a <strong>private chemistry tutor in jamshedpur</strong> or prefer group classes, we have flexible options for every student.
               </p>
             </div>
             
@@ -69,17 +68,20 @@ const Hero = () => {
                 <MessageCircle className="w-6 h-6 mr-3" />
                 Join Now - Contact on WhatsApp
               </a>
-              <button className="border-2 border-teal-400 text-teal-400 px-8 py-4 rounded-full font-semibold hover:bg-teal-400 hover:text-slate-900 transition-all duration-300 flex items-center justify-center text-lg">
+              <a 
+                href="#contact"
+                className="border-2 border-teal-400 text-teal-400 px-8 py-4 rounded-full font-semibold hover:bg-teal-400 hover:text-slate-900 transition-all duration-300 flex items-center justify-center text-lg"
+              >
                 <FlaskConical className="w-6 h-6 mr-3" />
-                Learn More - Contact for Details
-              </button>
+                Contact for Chemistry Coaching Near Me
+              </a>
             </div>
           </div>
           <div className="flex-1 relative animate-fade-in animation-delay-800">
             <div className="relative">
               <img 
                 src="/lovable-uploads/9bdf2ac9-e7e2-4837-89b8-bab42e518c8b.png" 
-                alt="Surendra Yadav - Chemistry Teacher" 
+                alt="Surendra Sir - Best Chemistry Teacher in Jamshedpur, Jugsalai - Expert Chemistry Tutor for Class 9-12 CBSE ICSE ISC" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl border-4 border-white/20"
               />
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
