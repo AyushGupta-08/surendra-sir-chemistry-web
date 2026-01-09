@@ -11,6 +11,7 @@ import FloatingButtons from '../components/FloatingButtons';
 import Footer from '../components/Footer';
 import DeveloperCredit from '../components/DeveloperCredit';
 import SampleNotes from '../components/SampleNotes';
+import SEOContent from '../components/SEOContent';
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
       <Reviews />
       <Contact />
       <SampleNotes />
+      <SEOContent />
       <Footer />
       <DeveloperCredit />
       <FloatingButtons />
