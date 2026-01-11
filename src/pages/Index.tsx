@@ -6,6 +6,7 @@ import About from '../components/About';
 import Courses from '../components/Courses';
 import Testimonials from '../components/Testimonials';
 import Reviews from '../components/Reviews';
+import StudentTestimonials from '../components/StudentTestimonials';
 import Contact from '../components/Contact';
 import FloatingButtons from '../components/FloatingButtons';
 import Footer from '../components/Footer';
@@ -22,6 +23,7 @@ const Index = () => {
       <Courses />
       <Testimonials />
       <Reviews />
+      <StudentTestimonials />
       <Contact />
       <SampleNotes />
       <SEOContent />
