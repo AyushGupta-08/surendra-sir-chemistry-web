@@ -1,42 +1,89 @@
+/* Reset default styles that may interfere with full-width layout */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Performance optimizations */
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimize images for performance */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Touch-friendly tap targets */
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Ensure readable font sizes */
+  html {
+    font-size: 16px;
+  }
+  
+  /* Prevent text from being too small */
+  p, li, span {
+    font-size: inherit;
+    line-height: 1.6;
+  }
+  
+  /* Ensure buttons are easily tappable */
+  button,
+  .btn,
+  a[role="button"] {
+    min-height: 44px;
+    min-width: 44px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* GPU acceleration for smooth animations */
+.will-change-transform {
+  will-change: transform;
 }
 
-.card {
-  padding: 2em;
+.will-change-opacity {
+  will-change: opacity;
 }
 
-.read-the-docs {
-  color: #888;
+/* Contain paint for performance */
+.contain-paint {
+  contain: paint;
 }
